@@ -1,0 +1,101 @@
+Customer ID,First Name,Last Name,Email,Phone Number,Order Date,Amount,Currency Amount,Status,Notes
+1,John,Smith,john.smith@email.com,(555) 123-4567,2024-01-15,$1234.56,$1234.56,Active,Regular customer
+2,Jane,Doe,jane.doe@email.com,(555) 234-5678,01/20/2024,$987.65,$987.65,Active,VIP member
+3,Bob,Johnson,bob.j@email.com,(555) 345-6789,2024-02-01,$2345.67,$2345.67,Inactive,
+4, Alice ,Williams, alice.w@email.com ,(555) 456-7890,02/15/2024,$456.78,$456.78,Active,New customer
+5,Charlie,Brown,charlie.b@email.com,(555) 567-8901,2024-03-01,$789.12,$789.12,Active,Referred by John
+6,Diana,Miller,diana.m@email.com,(555) 678-9012,03/10/2024,$3456.78,$3456.78,Pending,
+7,Edward,Davis,edward.d@email.com,(555) 789-0123,2024-03-15,$234.56,$234.56,Active,Corporate account
+8,Fiona,Garcia,fiona.g@email.com,(555) 890-1234,15/03/2024,$567.89,$567.89,Active,International
+9,George,Martinez,george.m@email.com,(555) 901-2345,2024-04-01,$890.12,$890.12,Active,
+10,Helen,Anderson,helen.a@email.com,(555) 012-3456,04/05/2024,$1234.00,$1234.00,Inactive,Account on hold
+11,Ivan,Taylor,ivan.t@email.com,(555) 123-4567,2024-04-10,"€1.234,56","EUR 1.234,56",Active,European pricing
+12,Julia,Thomas,julia.t@email.com,(555) 234-5678,10/04/2024,($500.00),(500.00),Active,Refund processed
+13,Kevin,Jackson,kevin.j@email.com,(555) 345-6789,2024-05-01,$0.99,$0.99,Active,Trial user
+14,Laura,White,laura.w@email.com,,05/15/2024,$2500.00,$2500.00,Active,Missing phone
+15,Michael,Harris,michael.h@email.com,(555) 567-8901,2024-05-20,$15000.00,$15000.00,Active,High value
+16,Nancy,Clark,nancy.c@email.com,(555) 678-9012,20/05/2024,$750.25,$750.25,Pending,
+17,Oliver,Lewis,oliver.l@email.com,(555) 789-0123,2024-06-01,$125.50,$125.50,Active,
+18,Patricia,Robinson,patricia.r@email.com,(555) 890-1234,06/10/2024,$3333.33,$3333.33,Active,
+19,Quinn,Walker,quinn.w@email.com,(555) 901-2345,2024-06-15,$444.44,$444.44,Inactive,
+20,Robert,Hall,robert.h@email.com,(555) 012-3456,15/06/2024,$555.55,$555.55,Active,
+21,Sarah,Allen,sarah.a@email.com,(555) 123-4567,2024-07-01,$666.66,$666.66,Active,
+22,Thomas,Young,thomas.y@email.com,(555) 234-5678,07/10/2024,$777.77,$777.77,Active,
+23,Uma,King,uma.k@email.com,(555) 345-6789,2024-07-15,$888.88,$888.88,Pending,Awaiting verification
+24,Victor,Wright,victor.w@email.com,(555) 456-7890,10/07/2024,$999.99,$999.99,Active,
+25,Wendy,Lopez,wendy.l@email.com,(555) 567-8901,2024-08-01,$111.11,$111.11,Active,
+26,Xavier,Hill,xavier.h@email.com,(555) 678-9012,08/05/2024,$222.22,$222.22,Active,
+27,Yolanda,Scott,yolanda.s@email.com,(555) 789-0123,2024-08-10,$50000.00,$50000.00,Active,Enterprise
+28,Zachary,Green,zachary.g@email.com,(555) 890-1234,05/08/2024,$0.50,$0.50,Inactive,Minimal activity
+29,John,Smith,john.smith@email.com,(555) 123-4567,2024-01-15,$1234.56,$1234.56,Active,Regular customer
+30,Amy,Baker,amy.b@email.com,(555) 901-2345,2024-09-01,$345.67,$345.67,Active,
+31,Brian,Adams,brian.a@email.com,(555) 012-3456,09/10/2024,$456.78,$456.78,Active,CafÃ© regular
+32,Carla,Nelson,,(555) 123-4568,2024-09-15,$567.89,$567.89,Active,Missing email
+33,Derek,Carter,derek.c@email.com,(555) 234-5679,10/09/2024,$678.90,$678.90,Pending,
+34,Elena,Mitchell,elena.m@email.com,(555) 345-6780,2024-10-01,$789.01,$789.01,Active,RÃ©sumÃ© attached
+35,Frank,Perez,frank.p@email.com,(555) 456-7891,10/05/2024,$890.12,$890.12,Active,
+36,Grace,Roberts,grace.r@email.com,(555) 567-8902,2024-10-10,$901.23,$901.23,Active,naÃ¯ve user
+37,Henry,Turner,henry.t@email.com,(555) 678-9013,05/10/2024,$12.34,$12.34,Inactive,
+38,Iris,Phillips,iris.p@email.com,(555) 789-0124,2024-11-01,$23.45,$23.45,Active,
+39,Jack,Campbell,jack.c@email.com,(555) 890-1235,11/10/2024,$34.56,$34.56,Active,
+40,Kate,Parker,kate.p@email.com,(555) 901-2346,2024-11-15,$45.67,$45.67,Active,
+41,Leo,Evans,leo.e@email.com,(555) 012-3457,10/11/2024,$56.78,$56.78,Pending,
+42,Mia,Edwards,mia.e@email.com,(555) 123-4569,2024-12-01,$67.89,$67.89,Active,
+43,Noah,Collins,noah.c@email.com,(555) 234-5670,12/05/2024,$78.90,$78.90,Active,
+44,Olivia,Stewart,olivia.s@email.com,(555) 345-6781,2024-12-10,$89.01,$89.01,Active,
+45,Peter,Sanchez,peter.s@email.com,(555) 456-7892,05/12/2024,$90.12,$90.12,Inactive,
+46,Quinn,Morris,quinn.m@email.com,(555) 567-8903,2024-12-15,$1.23,$1.23,Active,Micro transaction
+47,Rachel,Rogers,rachel.r@email.com,(555) 678-9014,15/12/2024,$2.34,$2.34,Active,
+48,Sam,Reed,sam.r@email.com,(555) 789-0125,2024-12-20,$3.45,$3.45,Active,
+49,Tina,Cook,tina.c@email.com,(555) 890-1236,20/12/2024,$4.56,$4.56,Pending,
+50,Ulysses,Morgan,ulysses.m@email.com,(555) 901-2347,2024-12-25,$5.67,$5.67,Active,
+51,Vera,Bell,vera.b@email.com,(555) 012-3458,25/12/2024,$6.78,$6.78,Active,
+52,William,Murphy,william.m@email.com,(555) 123-4560,2024-12-30,$7.89,$7.89,Active,
+53,Xena,Bailey,xena.b@email.com,(555) 234-5671,30/12/2024,$8.90,$8.90,Inactive,
+54,Yuri,Rivera,yuri.r@email.com,(555) 345-6782,2025-01-01,$9.01,$9.01,Active,New year signup
+55,Zara,Cooper,zara.c@email.com,(555) 456-7893,01/05/2025,$10.12,$10.12,Active,
+56,Adam,Richardson,adam.r@email.com,(555) 567-8904,2025-01-10,$100.00,$100.00,Active,Round number
+57,Bella,Cox,bella.c@email.com,(555) 678-9015,05/01/2025,$200.00,$200.00,Pending,
+58,Chris,Howard,chris.h@email.com,(555) 789-0126,2025-01-15,$300.00,$300.00,Active,
+59,Dana,Ward,dana.w@email.com,(555) 890-1237,10/01/2025,$400.00,$400.00,Active,
+60,Eric,Torres,eric.t@email.com,(555) 901-2348,2025-01-20,$500.00,$500.00,Inactive,
+61,Faith,Peterson,faith.p@email.com,(555) 012-3459,15/01/2025,$600.00,$600.00,Active,
+62,Gary,Gray,gary.g@email.com,(555) 123-4561,2025-01-25,$700.00,$700.00,Active,
+63,Holly,Ramirez,holly.r@email.com,(555) 234-5672,20/01/2025,$800.00,$800.00,Active,
+64,Ian,James,ian.j@email.com,(555) 345-6783,2025-02-01,$900.00,$900.00,Pending,
+65,Jill,Watson,jill.w@email.com,(555) 456-7894,01/02/2025,$1000.00,$1000.00,Active,
+66,Kyle,Brooks,kyle.b@email.com,(555) 567-8905,2025-02-10,$1100.00,$1100.00,Active,
+67,Lisa,Kelly,lisa.k@email.com,(555) 678-9016,05/02/2025,$1200.00,$1200.00,Active,
+68,Mark,Sanders,mark.s@email.com,(555) 789-0127,2025-02-15,$1300.00,$1300.00,Inactive,
+69,Nina,Price,nina.p@email.com,(555) 890-1238,10/02/2025,$1400.00,$1400.00,Active,
+70,Oscar,Bennett,oscar.b@email.com,(555) 901-2349,2025-02-20,$1500.00,$1500.00,Active,
+71,Paula,Wood,paula.w@email.com,(555) 012-3450,15/02/2025,$1600.00,$1600.00,Pending,
+72,Quincy,Barnes,quincy.b@email.com,(555) 123-4562,2025-02-25,$1700.00,$1700.00,Active,
+73,Rita,Ross,rita.r@email.com,(555) 234-5673,20/02/2025,$1800.00,$1800.00,Active,
+74,Steve,Henderson,steve.h@email.com,(555) 345-6784,2025-03-01,$1900.00,$1900.00,Active,
+75,Tracy,Coleman,tracy.c@email.com,(555) 456-7895,01/03/2025,$2000.00,$2000.00,Inactive,
+76,Uma,Jenkins,uma.j@email.com,(555) 567-8906,2025-03-05,$2100.00,$2100.00,Active,
+77,Vince,Perry,vince.p@email.com,(555) 678-9017,05/03/2025,$2200.00,$2200.00,Active,
+78,Wanda,Powell,wanda.p@email.com,(555) 789-0128,2025-03-10,$2300.00,$2300.00,Pending,
+79,Xander,Long,xander.l@email.com,(555) 890-1239,10/03/2025,$2400.00,$2400.00,Active,
+80,Yvonne,Patterson,yvonne.p@email.com,(555) 901-2340,2025-03-15,$2500.00,$2500.00,Active,
+81,Zack,Hughes,zack.h@email.com,(555) 012-3451,15/03/2025,$2600.00,$2600.00,Inactive,
+82,Anna,Flores,anna.f@email.com,(555) 123-4563,2025-03-20,$2700.00,$2700.00,Active,
+83,Ben,Washington,ben.w@email.com,(555) 234-5674,20/03/2025,$2800.00,$2800.00,Active,
+84,Cathy,Butler,cathy.b@email.com,(555) 345-6785,2025-03-25,$2900.00,$2900.00,Pending,
+85,Dan,Simmons,dan.s@email.com,(555) 456-7896,25/03/2025,$3000.00,$3000.00,Active,
+86,Emma,Foster,emma.f@email.com,(555) 567-8907,2025-03-30,,£3100.00,Active,Missing amount
+87,Fred,Gonzales,fred.g@email.com,(555) 678-9018,30/03/2025,$3200.00,$3200.00,Active,
+88,Gina,Bryant,gina.b@email.com,(555) 789-0129,2025-04-01,$3300.00,$3300.00,Inactive,
+89,Hank,Alexander,hank.a@email.com,(555) 890-1230,01/04/2025,$3400.00,$3400.00,Active,
+90,Ivy,Russell,ivy.r@email.com,(555) 901-2341,2025-04-05,$3500.00,$3500.00,Active,
+91,Jake,Griffin,jake.g@email.com,(555) 012-3452,05/04/2025,$3600.00,$3600.00,Pending,
+92,Kim,Diaz,kim.d@email.com,(555) 123-4564,2025-04-10,$3700.00,$3700.00,Active,
+93,Larry,Hayes,larry.h@email.com,(555) 234-5675,10/04/2025,$3800.00,$3800.00,Active,
+94,Mary,Myers,mary.m@email.com,(555) 345-6786,2025-04-15,$3900.00,$3900.00,Inactive,
+95,Ned,Ford,ned.f@email.com,(555) 456-7897,15/04/2025,$4000.00,$4000.00,Active,
+96,Opal,Hamilton,opal.h@email.com,(555) 567-8908,2025-04-20,$4100.00,$4100.00,Active,
+97,Paul,Graham,paul.g@email.com,(555) 678-9019,20/04/2025,$4200.00,$4200.00,Pending,
+98,Queenie,Sullivan,queenie.s@email.com,(555) 789-0120,2025-04-25,$4300.00,$4300.00,Active,
+99,Roy,Wallace,roy.w@email.com,(555) 890-1231,25/04/2025,$4400.00,$4400.00,Active,
+100,Sue,West,sue.w@email.com,(555) 901-2342,2025-04-30,$4500.00,$4500.00,Active,Final test row
