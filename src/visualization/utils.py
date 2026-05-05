@@ -206,7 +206,7 @@ def _classify_column(series: pd.Series) -> str:
             try:
                 pd.to_datetime(sample, format='mixed')
                 # If more than 80% can be parsed as dates, treat as datetime
-                success_rate = pd.to_datetime(series, errors='coerce').notna().mean()
+                success_rate = pd.to_datetime(series, errors='coerce', format='mixed').notna().mean()
                 if success_rate > 0.8:
                     return 'datetime'
             except (ValueError, TypeError):
@@ -217,7 +217,7 @@ def _classify_column(series: pd.Series) -> str:
         return 'numeric'
 
     # Check for categorical (low cardinality strings)
-    if series.dtype == object or pd.api.types.is_categorical_dtype(series):
+    if pd.api.types.is_object_dtype(series) or pd.api.types.is_string_dtype(series) or isinstance(series.dtype, pd.CategoricalDtype):
         n_unique = series.nunique()
         n_total = len(series)
 
@@ -430,7 +430,7 @@ def prepare_time_series_data(
     """
     # Ensure date column is datetime
     result = df.copy()
-    result[date_column] = pd.to_datetime(result[date_column], errors='coerce')
+    result[date_column] = pd.to_datetime(result[date_column], errors='coerce', format='mixed')
 
     # Remove rows with invalid dates
     result = result.dropna(subset=[date_column])

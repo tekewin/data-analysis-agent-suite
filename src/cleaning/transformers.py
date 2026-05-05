@@ -184,7 +184,7 @@ def normalize_dates(
         if input_format:
             parsed = pd.to_datetime(df[column], format=input_format, errors='coerce')
         else:
-            parsed = pd.to_datetime(df[column], dayfirst=dayfirst, errors='coerce')
+            parsed = pd.to_datetime(df[column], dayfirst=dayfirst, errors='coerce', format='mixed')
 
         # Format to string
         formatted = parsed.dt.strftime(output_format)

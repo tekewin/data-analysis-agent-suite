@@ -1,6 +1,6 @@
 # Data Analysis Agent Suite
 
-A suite of Claude Code subagents that automate data analysis workflows. Transform raw CSV/Excel data into clean datasets, statistical insights, interactive visualizations, and executive-ready reports.
+A suite of Gemini CLI subagents that automate data analysis workflows. Transform raw CSV/Excel data into clean datasets, statistical insights, interactive visualizations, and executive-ready reports.
 
 ## Agents
 
@@ -17,7 +17,7 @@ A suite of Claude Code subagents that automate data analysis workflows. Transfor
 
 ### Prerequisites
 
-- [Claude Code CLI](https://claude.ai/claude-code) installed
+- Gemini CLI installed
 - Python 3.11+
 - [uv](https://github.com/astral-sh/uv) package manager
 
@@ -127,13 +127,14 @@ All outputs are saved to `./output/` with timestamped filenames:
 
 ```
 data-analysis-agent-suite/
-├── agents/                  # Agent prompt definitions
-│   ├── data-cleaner.md
-│   ├── data-analyzer.md
-│   ├── data-visualizer.md
-│   ├── report-writer.md
-│   ├── exec-summarizer.md
-│   └── full-analysis.md     # Pipeline orchestrator
+├── .gemini/
+│   └── agents/              # Agent prompt definitions
+│       ├── data-cleaner.md
+│       ├── data-analyzer.md
+│       ├── data-visualizer.md
+│       ├── report-writer.md
+│       ├── exec-summarizer.md
+│       └── full-analysis.md # Pipeline orchestrator
 ├── src/                     # Python utility modules
 │   ├── cleaning/            # Data cleaning utilities
 │   ├── analysis/            # Statistical analysis
@@ -181,7 +182,7 @@ uv run pytest tests/test_loader.py
 
 ## Documentation
 
-- `CLAUDE.md` - Technical reference for Claude (APIs, modules, conventions)
+- `GEMINI.md` - Technical reference for Gemini CLI (APIs, modules, conventions)
 - `SPECIFICATION.md` - Full technical specification
 - `TODO.md` - Development progress tracker
 

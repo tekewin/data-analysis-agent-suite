@@ -7,7 +7,7 @@
 ## 1. Overview
 
 ### 1.1 Purpose
-A suite of specialized AI agents designed for data analysts working in Claude Code CLI. Each agent handles a specific aspect of the data analysis workflow, from cleaning raw data to producing executive-ready reports.
+A suite of specialized AI agents designed for data analysts working in Gemini CLI. Each agent handles a specific aspect of the data analysis workflow, from cleaning raw data to producing executive-ready reports.
 
 ### 1.2 Core Value Proposition
 - **Speed**: Automate time-consuming tasks (data cleaning, report writing)
@@ -577,13 +577,14 @@ Agent: ✅ Created: executive_summary.md
 
 ```
 data-analysis-agents/
-├── agents/
-│   ├── data-cleaner.md           # Cleaner agent prompt
-│   ├── data-analyzer.md          # Analyzer agent prompt
-│   ├── data-visualizer.md        # Visualizer agent prompt
-│   ├── report-writer.md          # Report writer agent prompt
-│   ├── exec-summarizer.md        # Exec summary agent prompt
-│   └── full-analysis.md          # Pipeline orchestrator
+├── .gemini/
+│   └── agents/
+│       ├── data-cleaner.md           # Cleaner agent prompt
+│       ├── data-analyzer.md          # Analyzer agent prompt
+│       ├── data-visualizer.md        # Visualizer agent prompt
+│       ├── report-writer.md          # Report writer agent prompt
+│       ├── exec-summarizer.md        # Exec summary agent prompt
+│       └── full-analysis.md          # Pipeline orchestrator
 │
 ├── templates/
 │   ├── cleaning_report.md        # Cleaning report template
@@ -623,7 +624,7 @@ data-analysis-agents/
 
 ### 6.2 Environment Setup
 
-Agents will use Claude Code's ability to execute Python code for data operations. The agents will:
+Agents will use Gemini CLI's ability to execute Python code for data operations. The agents will:
 
 1. Check for required packages
 2. Install missing packages if needed (with user permission)

@@ -55,7 +55,7 @@ def classify_column_type(series: pd.Series) -> ColumnType:
         return ColumnType.NUMERIC
 
     # For object dtype, infer from values
-    if dtype_str == 'object' or 'string' in dtype_str:
+    if dtype_str == 'object' or 'string' in dtype_str or 'str' in dtype_str or 'category' in dtype_str:
         sample = non_null.head(100)
         unique_ratio = len(non_null.unique()) / len(non_null) if len(non_null) > 0 else 0
 
@@ -66,7 +66,7 @@ def classify_column_type(series: pd.Series) -> ColumnType:
 
         # Check for date-like values
         try:
-            pd.to_datetime(sample, errors='raise')
+            pd.to_datetime(sample, errors='raise', format='mixed')
             return ColumnType.DATE
         except (ValueError, TypeError):
             pass

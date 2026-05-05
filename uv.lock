@@ -130,6 +130,7 @@ dependencies = [
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "plotly" },
+    { name = "pytest" },
     { name = "scipy" },
 ]
 
@@ -146,6 +147,7 @@ requires-dist = [
     { name = "openpyxl", specifier = ">=3.1.0" },
     { name = "pandas", specifier = ">=2.0.0" },
     { name = "plotly", specifier = ">=5.0.0" },
+    { name = "pytest", specifier = ">=9.0.2" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0.0" },
     { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=4.0.0" },
     { name = "scipy", specifier = ">=1.10.0" },

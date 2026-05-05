@@ -108,7 +108,7 @@ def _ensure_datetime(series: pd.Series) -> pd.Series:
     """Convert a series to datetime if not already."""
     if pd.api.types.is_datetime64_any_dtype(series):
         return series
-    return pd.to_datetime(series, errors='coerce')
+    return pd.to_datetime(series, errors='coerce', format='mixed')
 
 
 def analyze_trend(

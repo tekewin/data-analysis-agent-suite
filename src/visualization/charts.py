@@ -128,7 +128,7 @@ def create_line_chart(
     # Prepare data (sort by x if it's datetime)
     plot_df = df.copy()
     try:
-        plot_df[spec.x_column] = pd.to_datetime(plot_df[spec.x_column])
+        plot_df[spec.x_column] = pd.to_datetime(plot_df[spec.x_column], format='mixed')
         plot_df = plot_df.sort_values(spec.x_column)
     except (ValueError, TypeError):
         pass  # Not a datetime column, keep original order
