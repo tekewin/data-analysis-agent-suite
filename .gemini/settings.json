@@ -1,0 +1,51 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "Default Light",
+    "showStatusInTitle": true,
+    "showModelInfoInChat": true
+  },
+  "general": {
+    "previewFeatures": true,
+    "sessionRetention": {
+      "enabled": true,
+      "maxAge": "30d",
+      "warningAcknowledged": true
+    },
+    "enablePromptCompletion": true,
+    "plan": {
+      "modelRouting": false
+    }
+  },
+  "model": {
+    "name": "gemini-3.1-pro-preview"
+  },
+  "agents": {
+    "overrides": {
+      "codebase_investigator": {
+        "modelConfig": {
+          "model": "gemini-3.1-pro-preview"
+        }
+      },
+      "generalist": {
+        "modelConfig": {
+          "model": "gemini-3.1-pro-preview"
+        }
+      },
+      "cli_help": {
+        "modelConfig": {
+          "model": "gemini-3.1-pro-preview"
+        }
+      },
+      "browser_agent": {
+        "modelConfig": {
+          "model": "gemini-3.1-pro-preview"
+        }
+      }
+    }
+  }
+}
